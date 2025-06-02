@@ -22,7 +22,7 @@
 body {
     font-family: var(--fonte);
     background: #f016d3;
-    background: linear-gradient(90deg, rgba(240, 22, 211, 1) 16%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(90deg, rgba(240, 22, 211, 1) 16%, rgb(51, 141, 225) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
