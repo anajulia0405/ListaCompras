@@ -22,7 +22,7 @@
 body {
     font-family: var(--fonte);
     background: #f016d3;
-background: linear-gradient(90deg, rgba(240, 22, 211, 1) 16%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(90deg, rgba(240, 22, 211, 1) 16%, rgba(237, 221, 83, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,4 +43,18 @@ background: linear-gradient(90deg, rgba(240, 22, 211, 1) 16%, rgba(237, 221, 83,
     color: var(--cor-texto);
     margin-bottom: 1.5rem;
     font-weight: 500;
+}
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+input:focus {
+    border-color: var(--cor-primaria);
+    outline:none;
+    box-shadow: 0 0 0 3px rgba(107, 115, 255, 0.25);
 }
